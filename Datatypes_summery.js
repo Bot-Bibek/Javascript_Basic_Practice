@@ -35,3 +35,7 @@ let myObj = {
  constmyFunction = function(){
   console.log("hello")
  }
+
+
+ // ************************Memories******************************
+ //Stack and Heap Memory 
