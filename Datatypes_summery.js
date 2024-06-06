@@ -39,3 +39,26 @@ let myObj = {
 
  // ************************Memories******************************
  //Stack and Heap Memory 
+//In stack memory is use in primitive type and in heap memory is use in non primitive tpes
+
+//When ever stack memory is use whatever variable we declear it return the copy of that variables.
+//When ever memory(Object) is define under heap it returns reference of orignal values. it change orignal values.
+
+let myName = "Bibek Bot" //Primitive type
+let anotherName = myName
+anotherName = "bot"
+console.log(anotherName);
+console.log(myName);
+
+let userOne = {
+  email: "user@gmail.com",
+  userId: 123
+}
+
+
+let userTwo = userOne
+//Too access value of object Dot notation is use.
+userTwo.email = "bibek@gmail.com"
+
+console.log(userOne.email)
+console.log(userTwo.email);
