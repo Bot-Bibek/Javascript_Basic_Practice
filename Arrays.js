@@ -45,4 +45,43 @@ console.log( typeof newArr)
 
 // slice, splice
 
-c
+console.log("A ", myArr);
+const myn1 = myArr.slice(1, 3)
+
+console.log(myn1)
+console.log("B " ,myArr)
+
+const myn2 = myArr.splice(1, 3)
+console.log(myn2)
+
+
+const marvel_heroes = ["Thor", "Ironman"]
+const dc = ["superman", "flash"]
+
+// marvel_heroes.push(dc)
+// console.log(marvel_heroes)
+
+//concat return new arrays
+const All_heros = marvel_heroes.concat(dc)
+console.log(All_heros)
+
+//sprad operator return spreadout values
+//Perfered to use
+const all_new_heros = [...marvel_heroes, ...dc]
+console.log(all_new_heros)
+
+//Flat method spreadout the sub array and return single array
+const another_array = [1,2,3,[4,5,6],7,[6,7, [4,5]]]
+
+const myNumber = another_array.flat(Infinity)
+console.log(myNumber)
+
+console.log(Array.isArray("Bibek"))
+//from method convert stiring value into array
+console.log(Array.from("Bibek"))
+console.log(Array.from({name: "Bibek"})) //intresteing
+
+let score1 = 100
+let score2 = 200
+
+console.log(Array.of(score1, score2))
