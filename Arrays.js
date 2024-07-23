@@ -22,6 +22,9 @@ deep copy: just like stack memory
 // array are not associative, array elements cannot be access using arbitrary strings as index.
 
 //Arrays Methods
+//High Order Method
+// Map()
+//Filter()
 
 //push method add the elements in array.
 // myArr.push(6)

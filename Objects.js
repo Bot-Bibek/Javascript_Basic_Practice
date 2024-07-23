@@ -96,3 +96,33 @@ console.log(Object.values(tinderUser))
 console.log(Object.entries(tinderUser))
 //hasOwnProperty
 console.log(tinderUser.hasOwnProperty('isLoggedIn'))
+
+//*******************************Object De-Struture and JSON API****************************************
+const course =  {
+  name: "Javascript",
+  price: "1000",
+  instructor: "Hitesh"
+}
+
+//Object de struture
+const{instructor: tutor}= course
+console.log(tutor)
+
+//Example of react 
+// const navbar = ({company})=>{
+
+// }
+// navbar(company = "bibek" )
+
+//JSON 
+// {
+//   "name": "Bibek",
+//   "coursname": "Javascript",
+//   "price": "free"
+// }
+
+[
+  {},
+  {},
+  {},
+]
