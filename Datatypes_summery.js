@@ -60,5 +60,5 @@ let userTwo = userOne
 //Too access value of object Dot notation is use.
 userTwo.email = "bibek@gmail.com"
 
-console.log(userOne.email)
+console.log(userOne.email);
 console.log(userTwo.email);
